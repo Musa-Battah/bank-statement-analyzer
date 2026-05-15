@@ -16,10 +16,10 @@ export default function Navbar() {
           <Link href="/" className={`nav-link ${pathname === '/' ? 'active' : ''}`}>
             Analyzer
           </Link>
-          <Link href="/transactions" className={`nav-link ${pathname === '/transactions' ? 'active' : ''}`}>
+          <Link href="#" className={`nav-link ${pathname === '/transactions' ? 'active' : ''}`}>
             Transactions
           </Link>
-          <Link href="/insights" className={`nav-link ${pathname === '/insights' ? 'active' : ''}`}>
+          <Link href="#" className={`nav-link ${pathname === '/insights' ? 'active' : ''}`}>
             Insights
           </Link>
         </div>
